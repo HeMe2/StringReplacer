@@ -26,7 +26,7 @@ size_t StringReplacer::searchForSubstring(const string &origin, const string & t
 	if (bytesToCompare < origin.size()) {
 		// search from front to back
 		for (size_t index = 0; index < origin.size(); index++) {
-			if (matches(origin.substr(index, bytesToCompare).c_str(), toSearch.c_str(), bytesToCompare)) {
+			if (StringReplacer::matches(origin.substr(index, bytesToCompare).c_str(), toSearch.c_str(), bytesToCompare)) {
 				return index;
 			}
 		}
@@ -34,7 +34,7 @@ size_t StringReplacer::searchForSubstring(const string &origin, const string & t
 	return origin.size();
 }
 
-bool matches(const char * one, const char * two, size_t bytes) {
+bool StringReplacer::matches(const char * one, const char * two, size_t bytes) {
 	if (bytes > 0) {
 		if (*one == *two) {
 			return matches(one + 1, two + 1, bytes - 1);
