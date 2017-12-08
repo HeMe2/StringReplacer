@@ -11,3 +11,7 @@ An example for the usage is located in the example folder.
 * `replaceSubstrings` Replaces the provided substring with the replacement string in the origin string. The replacement may be an empty string.
 * `searchForSubstring` Searches for a substring byte by byte and returns its start position byte number in the original string. If the toSearch string is not contained in the origin string origin.size() is returned. Only the first substring that is contained, will be considered. 
 * `matches` Returns if the two strings match in the number of given bytes. Strings do not necessarily need to be null terminated, but in case they are not the result may be inaccurate. (This is more or less the same as the strncmp function from the stdstring.h header file, as I noticed later.)
+
+## License
+
+See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT). If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.
