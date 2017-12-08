@@ -18,7 +18,8 @@ using std::string;
 namespace StringReplacer {
 
 /**
- * Replaces the provided substrings.
+ * Replaces the provided substring with the replacement string in the origin string.
+ * The replacement may be an empty string.
  *
  * @param origin the string to manipulate
  * @param toReplace string that will be replaced
