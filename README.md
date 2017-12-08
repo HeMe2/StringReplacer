@@ -1,6 +1,6 @@
 # StringReplacer
 
-Provides substring search and substring replacement for C++ strings, because this is not included in the langueage standard.
+Provides substring search and substring replacement for C++ strings, because this is not included in the language standard.
 
 This code may be practical for character encoding problems with special characters in some languages, such as: ö, ü, ä, ß, ñ, á, ô, è, æ, Æ, Å, etc.
 
