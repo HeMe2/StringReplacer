@@ -24,6 +24,7 @@ namespace StringReplacer {
  * @param origin the string to manipulate
  * @param toReplace string that will be replaced
  * @param replacement string that will be inserted instead of toReplace
+ * @return The origin string with the defined replacements as a new string.
  */
 string replaceSubstrings(const string &origin, const string & toReplace, const string & replacement);
 
